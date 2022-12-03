@@ -1,0 +1,423 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0%;
+  }
+
+
+.icon_phone ::before {
+    content: "Hotline22";
+}
+
+.contac-header a {
+    text-decoration: none;
+    color: red;
+}
+
+.header .contac-header {
+    
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 1px solid green; */
+    
+    
+}
+
+
+
+
+.header .contac-header ::after {
+    
+}
+
+.header {
+    width: 100%;
+    
+}
+
+.menu_header {
+    margin-top: 40px;
+    padding: 0 150px;
+    background-color: #76c04e;
+    border-top: solid 1px;
+}
+
+.name_nhakhoa {
+    
+    text-decoration: none;
+    float: left;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.name_nhakhoa img {
+    position: relative;
+    top: 5px;
+    
+    
+}
+
+.title_nhakhoa {
+    float: left;
+    display: flex;
+    margin-top: 20px;
+    position:relative;
+    top: -20px;
+}
+
+.title_nhakhoa b {
+    
+    color: rgb(239, 7, 7);
+    width: 10px;
+    justify-content: center;
+    margin-top: 200px;
+    position: relative;
+    margin-bottom: 400px;
+    font-size: 22px;
+    line-height: 22px;
+    position: relative;
+    top: -8px;
+}
+
+.menu_main {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 90px;
+    margin-left: 450px;
+    padding-top: 40px;
+    line-height: 14px;
+    color: #fff;
+}
+.menu_main:hover {
+    
+    cursor: pointer;
+}
+
+.mail:hover {
+    cursor: pointer;
+    color: #de1114;
+}
+
+.menu_main li:hover {
+     
+    width: auto;
+    height: auto;
+    color: #000;
+    opacity: 0.7;
+}
+
+.menu_main li a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.menu_main li a :hover {
+    color: #000;
+}
+
+.nav {
+    position: relative;
+    top: -20px
+}
+
+.list2 {
+    display: flex;
+}
+
+.list2 .img_list2 img{
+    width: auto;
+    height: auto;
+    margin-right: -120px;
+    position: relative;
+    left: -140px;
+}
+
+
+.content {
+    display: inline;
+}
+
+.avt_content {
+    width: 100%;
+    
+}
+
+.header_section {
+    text-align: center;
+}
+
+
+.header_section {
+    color: #76c04e;
+    
+}
+
+
+.section img {
+    padding-left: 150px;
+}
+
+.content_section {
+    float: left;
+    padding-left: 30px;
+    margin-top: 30px;
+    font-size: 18px;
+    padding-right: 80px;
+}
+
+.content_section ul {
+    list-style-type: none;
+    
+}
+
+.content_section ul li {
+    padding: 20px 0;
+}
+
+.main_section {
+    display: flex;
+}
+
+.list_device {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_device_item1__iteam3 {
+    position: relative;
+    
+}
+
+.list_device img {
+    
+    width: 300px;
+    height: 150px;
+}
+
+.header_device {
+    text-align: center;
+}
+
+.header_device p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 20px;
+    color: #969696;
+}
+
+.button1 {
+    width: auto;
+    margin-top: 30px;
+    padding: 0 150px;
+    margin-left: 100px;
+}
+
+.button1 button {
+    width: 250px;
+    background-color: #76c04e;
+    justify-content: space-around;
+    position: relative;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.button1 button i {
+    position: absolute;
+    right: 15px;
+}
+
+.list_device {
+    margin-top: 30px;
+}
+
+.list2:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.list_device_item1 {
+    box-sizing: border-box;
+    display: flex;
+}
+
+.list_device_item img {
+    
+}
+
+.list_device_item1__content {
+    width: 100%;
+   text-align: center;
+   justify-content: center;
+   padding: 20px;
+}
+
+.timeWork {
+    padding-left: 150px;
+}
+.timeWork h1 {
+    text-align: center;
+}  
+
+.timeWork p {
+    line-height: 14px;
+    padding: 3px;
+    font-size: 18px;
+    
+}
+
+.timeWork ul li {
+    font-size: 18px;
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+
+.map {
+    
+   padding-top: 50px;
+    width: 100%;
+    height: 100%;
+    padding-right: 90px;
+    box-sizing: border-box;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    background-color: #76c04e;
+    justify-content: space-around;
+}
+
+.footer_name h2 {
+    margin-left: 40px;
+    color: rgb(214, 96, 23);
+}
+
+.footer_name h3 {
+    margin-left: 30px;
+    color: rgb(214, 96, 23);
+}
+
+.button_device button {
+    padding: 5px 200px;
+    text-align: center;
+}
+
+.button2 {
+    padding: 5px 0;
+    vertical-align: baseline;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(230, 104, 15);
+    cursor: pointer;
+    margin-left: 5px;
+    border: none;
+}
+
+button:hover {
+    background-color: #db5a0f;
+    opacity: 0.8;
+}
+
+.booklich i{
+    margin-right: 5px;
+    width: 14px;
+    height: 14px;
+}
+
+.icon_mess {
+    
+    
+}
+
+.content_device {
+    display: flex;
+}
+
+.connect a{
+    margin-left: 20px;
+}
+
+.contact-content{
+    margin-top: 48px;
+}
+.contact-info{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.contact-info a{
+    color: #101aef;
+    opacity: 0.8;
+}
+.contact-info a:hover{
+    opacity: 1;
+}
+.contact-info i[class*="ti-"]{
+    display: inline-block;
+    width: 30px;
+}
+.contact-form{
+    font-size: 15px;
+}
+.contact-form .form-control{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    
+}
+.content-section{
+    width: 800px;
+    max-width: 100%;
+    padding:64px 0px 112px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.section-heading{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+.section-subheading{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.6;
+}
+.about-text{
+    font-size: 15px;
+    margin-top: 25px;
+    text-align:justify;
+    line-height: 1.4;
+}
+
+.row {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.s-mt-8, .col-full {
+    margin-top: 10px;
+}
+
+.sendIf {
+    margin-left: 300px;
+    width: 100px;
+    text-align: center;
+}
+
+.sendIf:hover {
+    background-color: #db5a0f;
+}
